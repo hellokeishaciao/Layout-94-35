@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* style header */
+.header{
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+/*style untuk navigator menu*/
+
+.topnav{
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #704220;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color:beige;
+    color:brown;
+}
+/* style pada content */
+.column{
+    float:left;
+    padding: 10px;
+}
+.column.side{
+    width:25%;
+}
+.column.middle{
+    width: 50%;
+}
+.row:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+.footer{
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+
+ol{
+    list-style-type: upper-latin;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 6px;
+  margin-left: 4px;
+}
+
+ol.style{
+    /* list-style-type: lower-alpha; */
+    list-style-type: upper-roman;
+
+
+    margin-bottom: 50px;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+    font-family: mc;
+    border: solid 2px #b4819a;
+
+    background-color: #fff4c1;
+}
+
+.ciao{
+    background-color: #b4819a;
+    /* color: white; */
+}
+
+li.styyle{
+    background-color:#fff5c9;
+    border: solid 2px #fff5c9;
+    padding:4px;
+    margin: 3px;  
+}
+
+.texts{
+    color: white;
+}
